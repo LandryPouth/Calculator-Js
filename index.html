@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+        <div class="container">
+                <div class="display">
+                        <div class="calculated">
+                                <span></span>
+                        </div>
+                        <div class="result">
+                                <span>0</span>
+                        </div>
+                </div>
+                <div class="buttons">
+                <button class="function__btn" 
+                        style="color: red"
+                        data-action="clear">Del</button>
+                <button class="function__btn"
+                        data-action="open__bracket">(</button>
+                <button class="function__btn"
+                        data-action="close__bracket">)</button>
+                <button class="function__btn"
+                        data-action="exponentiel">eˣ</button>
+                <button class="function__btn"
+                        data-action="expo__n">yˣ</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="function__btn"
+                        data-action="divided">/</button>
+                <button class="function__btn"
+                        data-action="racine__square">√</button>
+                <button>6</button>
+                <button>5</button>
+                <button>4</button>
+                <button class="function__btn"
+                        data-action="multiply">×</button>
+                <button class="function__btn"
+                        data-action="square">x²</button>
+                <button>3</button>
+                <button>2</button>
+                <button>1</button>
+                <button class="function__btn"
+                        data-action="minus">-</button>
+                <button class="function__btn" 
+                        data-action="calculate"
+                        style="border-bottom-right-radius: 10px;">=</button>
+                <button class="function__btn"
+                        style="border-bottom-left-radius: 10px;"
+                        data-action="decimal">.</button>
+                <button>0</button>
+                <button class="function__btn"
+                        data-action="modulo">%</button>
+                <button class="function__btn"
+                        data-action="addition">+</button>
+                </div>
+        </div>
+
+        <script src="./app.js"></script>
+</body>
+</html>
